@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/ace.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="head">
+        <div class="logo">Ethan Kline</div>
+        <div class="coursename ">Design Fundamentals </div>
+    </div>
+    <div class="navigation">
+        <a href="../index.html">HOME</a>
+        <a href="gestalt.html">GESTALT</a>
+        <a href="coler.html">COLER</a>
+        <a href="typeography.html">TYPEOGRAPHY</a>
+        <a href="mobius.html">MOBIUS</a>
+        <a href="ring.html">RING</a>
+        <a href="toy.html">TOY</a>
+    </div>
+    <div class="header ">Typeography </div>
+    <div class="description ">
+        <div class="left">
+            <p>              For the Typography  project, I used Adobe InDesign to experiment with different aspects of fonts,  typefaces, type styles, and typesizes.  <br>
+                For Assignment 1, I  identified fonts, sizes, and styles that demonstrated a) large X-height in  relation to the capital letters; b) excessive variation between thick and thin  strokes; c) all-capital letters being less legible and taking up more space; d)  reduced legibility of bold type; e) reduced legibility of italics compared with  roman letters; f) difficult discrimination with too small type; and g) reduced  ability to read smoothly with too-large type.<br>
+                For Assignment 2, I  created five abstract compositions using different typefaces, styles, and  sizes. The images demonstrate the Gestalt principles of closure, figure/ground  relationship, continuation and symmetry. </p>
+        </div>
+        <div class="right">
+            <img id="expandedImg" src="../imo/type1main.jpg" alt="">
+            
+        </div>
+        
+    </div>
+    <div class="hundo">
+        <div></div>
+        <div>
+            <img src="../imo/type1thumb.jpg" alt="" onclick="myFunction('type1main')">
+            <img src="../imo/type2thumb.jpg" alt="" onclick="myFunction('type2main')">
+            <img src="../imo/type3thumb.jpg" alt="" onclick="myFunction('type3main')">
+            <img src="../imo/type4thumb.jpg" alt="" onclick="myFunction('type4main')">
+            <img src="../imo/type5thumb.jpg" alt="" onclick="myFunction('type5main')">
+            <img src="../imo/type6thumb.jpg" alt="" onclick="myFunction('type6main')">
+
+        </div>
+    </div>
+    <div class="footer">university of Iowa School of Art and Art History | © Copyright 2016</div>
+
+    <script>
+        function myFunction(imgs) {
+            var expandImg = document.getElementById("expandedImg");
+            expandImg.src ="../imo/" + imgs + ".jpg";
+        }
+    </script>
+
+
+</body>
+</html>

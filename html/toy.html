@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/ace.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="head">
+        <div class="logo">Ethan Kline</div>
+        <div class="coursename ">Design Fundamentals </div>
+    </div>
+    <div class="navigation">
+        <a href="../index.html">HOME</a>
+        <a href="gestalt.html">GESTALT</a>
+        <a href="coler.html">COLER</a>
+        <a href="typeography.html">TYPEOGRAPHY</a>
+        <a href="mobius.html">MOBIUS</a>
+        <a href="ring.html">RING</a>
+        <a href="toy.html">TOY</a>
+    </div>
+    <div class="header ">Toy </div>
+    <div class="description ">
+        <div class="left">
+            <p>Creating a toy was my  favorite project of the semester. This project was completed using <u>3D X Max</u>.  I enjoyed this because it was the project that allowed the most freedom and  creativity.  I learned how to place,  orient, and join objects in an environment.  I also learned how to customize shadows  including there brightness and definition. I created three toys: a ring stack,  a model airplane, and a tiny car. I placed the objects on a blue background surrounded  by some Victorian wallpaper that makes it feel a bit claustrophobic.  I like the colors I chose for the ring-stack,  but I think I could have improved on the colors of the other two toys.</p>
+        </div>
+        <div class="right">
+            <img id="expandedImg" src="../imo/toy1m.jpg" alt="">
+            
+        </div>
+        
+    </div>
+    <div class="hundo">
+        <div></div>
+        <div>
+            <img src="../imo/toy1t.jpg" alt="" onclick="myFunction('toy1m')">
+            <img src="../imo/t2t.jpg" alt="" onclick="myFunction('t2m')">
+            <img src="../imo/t3t.jpg" alt="" onclick="myFunction('t3m')">
+            <img src="../imo/t4t.jpg" alt="" onclick="myFunction('t4m')">
+            <img src="../imo/t5t.jpg" alt="" onclick="myFunction('t5m')">
+            <img src="../imo/t6t.jpg" alt="" onclick="myFunction('t6m')">
+            
+
+
+        </div>
+    </div>
+    <div class="footer">university of Iowa School of Art and Art History | © Copyright 2016</div>
+
+    <script>
+        function myFunction(imgs) {
+            var expandImg = document.getElementById("expandedImg");
+            expandImg.src ="../imo/" + imgs + ".jpg";
+        }
+    </script>
+
+
+</body>
+</html>
