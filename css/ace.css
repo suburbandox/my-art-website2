@@ -104,7 +104,9 @@ a:hover{
     .hundo > div{
         width: 100%;
     }
- 
+    body{
+        width: 100%;
+    }
     .hundo{
         flex-direction: column;
     }
