@@ -110,4 +110,7 @@ a:hover{
     .hundo{
         flex-direction: column;
     }
+    img{
+        width: 100%;
+    }
   }
