@@ -59,7 +59,9 @@ a:hover{
 .description {
     font-size: 14px;
     background-color: aliceblue;
-    display: grid;
+    display: flex;
+    padding: 0 5px;
+
     grid-template-columns: 1fr 1fr;   
 }
 .left{
@@ -72,8 +74,9 @@ a:hover{
 }
 .hundo{
     height: 100px;
+
     background-color: aliceblue;
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;   
     grid-area: unset;
     padding-right: 80px;
@@ -81,6 +84,7 @@ a:hover{
 .hundo > div{
     display: flex;
     align-items: center;
+    width: 50%;
 }
 .footer {
     font-size: 12px;
@@ -95,12 +99,13 @@ a:hover{
 }
 @media only screen and (max-width: 600px) {
     .description{
-        grid-template-columns: 1fr;
+        flex-direction: column;
     }
-    img{
+    .hundo > div{
         width: 100%;
     }
-    body{
-        width: 100%;
+ 
+    .hundo{
+        flex-direction: column;
     }
   }
